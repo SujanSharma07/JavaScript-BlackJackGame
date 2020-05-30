@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="static.css">
+<title>
+	
+</title>
+	
+</head>
+<body>
+
+
+<div class= "container-5">
+	<h1>Black Jack Game</h1>
+	<h3><span id ="blackjack-result">Let's Play</span></h3>
+	<div class ="flex-blackjack-row-1">
+		<div id="your-box">
+			<h2>You:<span id ="your-blackjack-result">0</span></h2>
+			<div id="y_box">
+
+			</div>
+
+		</div>
+
+		<div id ="dealer-box">
+			<h2>Dealer:<span id ="dealer-blackjack-result">0</span></h2>
+			<div id="d_box">
+
+			</div>
+		
+		</div>
+	</div>	
+		<div class="flex-blackjack-row-2">
+			<div>
+				<button onclick="blackjackgame(this)" class="btn btn-primary mr-2" style="background-color:gray; border: 2px solid black;" id="hit">Hit</button>
+				<button onclick="blackjackgame(this)" class="btn btn-warning mr-2" style="background-color: yellow; border: 2px solid black;"id="stand">Stand</button>
+				<button onclick="blackjackgame(this)" class="btn btn-danger" style="background-color: red; border: 2px solid black;" id="deal">Deal</button>
+			</div>
+			
+
+
+		</div>
+		
+		<div class="flex-blackjack-row-3">
+			<table style="border:1px solid black;">
+				<tr>
+					<th>Wins</th>
+					<th>Loss</th>
+					<th>Draw</th>	
+
+
+				</tr>
+
+				<tr>
+					<td><span id="wins">0</span></td>
+					<td><span id="losses">0</span></td>
+					<td><span id="draws">0</span></td>
+
+				</tr>
+			
+			</table>
+
+
+
+		</div>
+
+</div>
+</body>
+<script src="script1.js"></script>
+</html> 
